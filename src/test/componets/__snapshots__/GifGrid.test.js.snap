@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente <GifGrid /> Debe de mostrar el componente GifGrid 1`] = `
+<Fragment>
+  <h3>
+    One Punch
+  </h3>
+  <p>
+    Loading...
+  </p>
+  <div
+    className="container container-cards"
+  />
+</Fragment>
+`;
+
+exports[`Pruebas del componente <GifGrid /> Debe de mostrar items cuando se recibe data del useFetchGifs 1`] = `
+<Fragment>
+  <h3>
+    One Punch
+  </h3>
+  <div
+    className="container container-cards"
+  >
+    <GifGridItem
+      id={1}
+      key="1"
+      title="Title 1"
+      url="localhost/1.jpg"
+    />
+    <GifGridItem
+      id={2}
+      key="2"
+      title="Title 2"
+      url="localhost/2.jpg"
+    />
+    <GifGridItem
+      id={3}
+      key="3"
+      title="Title 3"
+      url="localhost/3.jpg"
+    />
+  </div>
+</Fragment>
+`;
